@@ -1,6 +1,6 @@
-# Fine-Tuning Transformer Models on SQuAD & LaTeX Dataset
+# Fine-Tuning Transformer Models  & LaTeX Dataset
 
-This project demonstrates fine-tuning a FLAN-T5 model on a custom LaTeX-based QA dataset and SQuAD using the Unsloth framework with QLoRA.
+This project demonstrates fine-tuning a Unsloth model on a custom LaTeX-based QA dataset and SQuAD using the Unsloth framework with QLoRA.
 
 ## 🚀 Features
 - LaTeX-to-Natural Language mapping for math Q&A.
