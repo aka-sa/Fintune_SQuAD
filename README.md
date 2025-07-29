@@ -8,7 +8,7 @@ This project demonstrates fine-tuning a FLAN-T5 model on a custom LaTeX-based QA
 - Supports symbolic math tasks and accessibility use cases.
 
 ## 📁 Files
-- `Finetune_LaTeX_SQuAD.ipynb`: Full Colab training notebook.
+- `finetuning_qwen_vl.ipynb`: Full Colab training notebook.
 - `data/sample_dataset.json`: Example of custom LaTeX QA data.
 
 ## 📦 Requirements
@@ -17,7 +17,7 @@ pip install unsloth transformers datasets accelerate
 ```
 
 ## 🔧 Model & Training
-- Model: `FLAN-T5-Small`
+- Model: `Unsloth`
 - Data: SQuAD + LaTeX-based QA pairs
 - LoRA: QLoRA adapter training
 - Framework: [Unsloth](https://github.com/unslothai/unsloth)
